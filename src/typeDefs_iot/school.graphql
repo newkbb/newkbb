@@ -1,0 +1,19 @@
+input CreateScoolInput{
+  name: String!
+}
+
+type School{
+  _id: ID!
+  name: String
+  isActive: Boolean!
+  createdAt: Float!
+  updatedAt: Float!
+}
+
+type Query{
+  schools: [School]
+}
+
+type Mutation{
+  createSchool(input:CreateScoolInput!): School
+}
