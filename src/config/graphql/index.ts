@@ -89,6 +89,7 @@ export class GraphqlService implements GqlOptionsFactory {
 				})
 			},
 			resolverValidationOptions: {
+					//@ts-ignore
 				requireResolversForResolveType: false
 			},
 			path: `/${END_POINT!}`,

@@ -74,6 +74,7 @@
 		"graphql-rate-limit": "^2.0.1",
 		"graphql-tools": "^4.0.5",
 		"graphql-type-json": "^0.3.0",
+		"graphql-upload": "^11.0.0",
 		"graphql-voyager": "^1.0.0-rc.28",
 		"handlebars": "^4.4.5",
 		"helmet": "^3.21.2",
