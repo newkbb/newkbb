@@ -21,7 +21,7 @@ export class SchoolResolver {
 		const schools = await getMongoRepository(School).findOne({ name })
 
 		if (schools) {
-			throw new ForbiddenError('City already existed.')
+			throw new ForbiddenError('School already existed.')
 		}
 
 		return await getMongoRepository(School).save(new School({ ...input }))

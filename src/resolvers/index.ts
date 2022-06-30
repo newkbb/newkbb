@@ -20,3 +20,5 @@ export * from './store.resolver'
 export * from './department.resolver'
 export * from './position.resolver'
 export * from './tree.resolver'
+export * from './school.resolver'
+

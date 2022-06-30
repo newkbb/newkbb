@@ -40,7 +40,7 @@ async function main() {
 				local: {
 					email: 'nhocpo.juzo@gmail.com',
 					password:
-						'$2b$10$fcew2jC4VYtB1/tz/L6sA.pTxkqmjL2t7eXQzU19kr.mMnkhGpjsS'
+						'$2b$10$NsWwsVY7FHTFCI1Z.9DAPuz8umFi7D1boRmFsNgz1sGkZm1yr285C'
 				}
 			},
 			{
@@ -51,7 +51,7 @@ async function main() {
 				local: {
 					email: 'luuvinhhung159@gmail.com',
 					password:
-						'$2b$10$fcew2jC4VYtB1/tz/L6sA.pTxkqmjL2t7eXQzU19kr.mMnkhGpjsS'
+						'$2b$10$NsWwsVY7FHTFCI1Z.9DAPuz8umFi7D1boRmFsNgz1sGkZm1yr285C'
 				}
 			},
 			{
@@ -62,7 +62,7 @@ async function main() {
 				local: {
 					email: 'hieuhutieu98@gmail.com',
 					password:
-						'$2b$10$fcew2jC4VYtB1/tz/L6sA.pTxkqmjL2t7eXQzU19kr.mMnkhGpjsS'
+						'$2b$10$NsWwsVY7FHTFCI1Z.9DAPuz8umFi7D1boRmFsNgz1sGkZm1yr285C'
 				}
 			},
 			{
@@ -73,7 +73,7 @@ async function main() {
 				local: {
 					email: 'trinhchin.innos@gmail.com',
 					password:
-						'$2b$10$dIYDOSkHYv4lwEEDIdF3aedBDZvKNtsrweQuDyXiwTOIarrwSksBe'
+						'$2b$10$NsWwsVY7FHTFCI1Z.9DAPuz8umFi7D1boRmFsNgz1sGkZm1yr285C'
 				}
 			}
 		]
