@@ -3,7 +3,7 @@ import { getMongoRepository } from 'typeorm'
 import { ForbiddenError } from 'apollo-server-core'
 
 import { School } from '@entities'
-import { CreateScoolInput } from '../generator/graphql.schema'
+import { CreateSchoolInput } from '../generator/graphql.schema'
 
 @Resolver('School')
 export class SchoolResolver {
@@ -15,7 +15,7 @@ export class SchoolResolver {
 	}
 
 	@Mutation()
-	async createCity(@Args('input') input: CreateScoolInput): Promise<School> {
+	async createSchool(@Args('input') input: CreateSchoolInput): Promise<School> {
 		const { name } = input
 
 		const schools = await getMongoRepository(School).findOne({ name })

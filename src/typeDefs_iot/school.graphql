@@ -1,4 +1,4 @@
-input CreateScoolInput{
+input CreateSchoolInput{
   name: String!
 }
 
@@ -15,5 +15,5 @@ type Query{
 }
 
 type Mutation{
-  createSchool(input:CreateScoolInput!): School
+  createSchool(input:CreateSchoolInput!): School
 }
